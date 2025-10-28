@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-image: url("https://ull-esit-sistemas-operativos.github.io/ssoo-apuntes/so2324/media/C03-historia/dec_pdp11_ken_den.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+    background-color:#eaf096ec;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links {
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;    
+}
+
+.header .nav-links li a:hover{
+    color: #ffbc0e;
+}
+
+.header .btn button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #000000;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+p {
+    color:rgb(0, 0, 0)
+}
+
+.cajaDeTarjetas > div {
+    background-color: rgb(224, 54, 54);
+    width: 250px;
+    height: 300px;
+    margin:10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.cajaDeTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+   
+
+}
+
+.titulo {
+    font-size: 55px;
+    color: #f0f342ec;
+    font-family: "Tomorrow", sans-serif;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    text-decoration: none;
+    color: #1a1a1a;
+    background-color: #f0f342ec;
+    padding: 10px;
+    margin: 2%;
+    border-radius: 20%;
+}
+p {
+    color:rgb(0, 0, 0)
+}
+
+.info {
+    background-color: hsl(146, 3%, 57%);
+    width: 100%;
+    min-height: 300px;
+    margin:10px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
