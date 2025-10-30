@@ -27,21 +27,6 @@ body{
     padding: 5px 10%;
 }
 
-.header .logo{
-    cursor: pointer;
-    margin-right: auto;
-}
-
-.header .logo img{
-    height: 70px;
-    width: auto;
-    transition: all 0.3s;
-}
-
-.header .logo img:hover{
-    transform: scale(1.2);
-}
-
 .header .nav-links{
     list-style: none;
 }
@@ -124,7 +109,7 @@ img{
 .boton {
     text-decoration: none;
     color: #1a1a1a;
-    background-color: #f0f342ec;
+    background-color: #eaf096ec;
     padding: 10px;
     margin: 2%;
     border-radius: 20%;
